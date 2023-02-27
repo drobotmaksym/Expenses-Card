@@ -1,0 +1,3 @@
+# Remove .md and .json files, since they are not used
+*.md
+*.json
