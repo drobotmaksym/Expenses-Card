@@ -54,3 +54,57 @@
 .fs-600 {
   font-size: var(--fs-600);
 }
+
+/* general styling */
+
+body {
+  background: var(--clr-neutral-200);
+
+  display: grid;
+  place-content: center;
+}
+
+ul {
+  list-style-type: none;
+
+  margin-top: 40px;
+  height: 185px;
+  text-align: center;
+}
+
+ul > li {
+  width: 32px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+li > div {
+  background: var(--clr-primary-400);
+  border-radius: 6px;
+
+  height: 100%;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.card {
+  width: 345px;
+}
+
+.card > div {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card > div:first-child{
+  background: var(--clr-primary-400);
+  
+  margin-bottom: 16px;
+}
+
+.card > div:last-child {
+  background: var(--clr-neutral-100);
+}
