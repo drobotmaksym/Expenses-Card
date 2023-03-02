@@ -45,11 +45,20 @@
   font-size: var(--fs-700);
 }
 
+.neutral-100 {
+  color: var(--clr-neutral-100);
+}
+
+.neutral-400 {
+  color: var(--clr-neutral-400);
+}
+
 /* general styling */
 
 body {
   background: var(--clr-neutral-200);
   font-family: 'DM Sans', sans-serif;
+  color: var(--clr-neutral-800);
 
   display: grid;
   place-content: center;
@@ -78,6 +87,8 @@ li > div {
 }
 
 hr {
+  border: 1px solid var(--clr-neutral-200);
+  border-top: 0;
   margin: 20px 0;
 }
 
