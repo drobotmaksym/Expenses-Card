@@ -64,7 +64,17 @@ body {
   place-content: center;
 }
 
-ul {
+.card {
+  width: 345px;
+}
+
+.card > div {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.card ul {
   list-style-type: none;
 
   margin-top: 40px;
@@ -72,14 +82,14 @@ ul {
   text-align: center;
 }
 
-ul > li {
+.card ul > li {
   width: 32px;
   display: flex;
   flex-direction: column-reverse;
   gap: 10px;
 }
 
-li > div {
+.card li > div {
   background: var(--clr-primary-400);
   border-radius: 6px;
 
@@ -89,16 +99,6 @@ li > div {
 hr {
   border: 1px solid var(--clr-neutral-200);
   margin: 20px 0;
-}
-
-.card {
-  width: 345px;
-}
-
-.card > div {
-  padding: 20px;
-  border-radius: 10px;
-  margin: 8px;
 }
 
 /* selective styling */
